@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Bed Bath And Beyond " parallel="tests">
+
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="userName" value="Dimitar"/>
+    <parameter name="key" value=""/>
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="browserVersion" value="48"/>
+    <parameter name="url" value="http://www.bedbathandbeyond.com"/>
+
+    <!--<test name = "Bed Bath And Beyond Search">-->
+        <!--<classes>-->
+            <!--<class name="search.SearchContent"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name = "Bed Bath And Beyond Gift Card Search">-->
+        <!--<classes>-->
+            <!--<class name="giftCardsearch.GiftCard"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <test name = "BBB Gift Card Add To Card">
+        <classes>
+            <class name="addToCart.giftCardAddToCart"/>
+        </classes>
+    </test>
+</suite>

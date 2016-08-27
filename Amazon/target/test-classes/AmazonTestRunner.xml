@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Amazon E-commerce " parallel="tests">
+
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="userName" value="Dimitar"/>
+    <parameter name="key" value=""/>
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="browserVersion" value="48"/>
+    <parameter name="url" value="http://www.amazon.com"/>
+
+    <test name = "Amazon Search ">
+        <classes>
+            <class name="home.page.Search"/>
+        </classes>
+    </test>
+
+    <test name = "Amazon Sign In ">
+        <classes>
+            <class name="home.page.SignIn"/>
+        </classes>
+    </test>
+
+    <test name = "Amazon Prime ">
+        <classes>
+            <class name="prime.amazonPrime"/>
+        </classes>
+    </test>
+</suite>

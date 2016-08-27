@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Amazon/Amazon.iml" filepath="$PROJECT_DIR$/Amazon/Amazon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BBBeyond/BBBeyond.iml" filepath="$PROJECT_DIR$/BBBeyond/BBBeyond.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CommerceFramework.iml" filepath="$PROJECT_DIR$/CommerceFramework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gen/Gen.iml" filepath="$PROJECT_DIR$/Gen/Gen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Walmart/Walmart.iml" filepath="$PROJECT_DIR$/Walmart/Walmart.iml" />
+    </modules>
+  </component>
+</project>
